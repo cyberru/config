@@ -1,5 +1,3 @@
-alias ll="ls -a"
-
 fpath+=$HOME/.zsh/pure
 
 autoload -U promptinit; promptinit
