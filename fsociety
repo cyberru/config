@@ -4,10 +4,12 @@ echo "hello worls"
 rm ~/.vimrc
 rm ~/.zshrc
 rm -Rfv ~/.zsh/zsh-autosuggestions
+mkdir ~/.vim
+mkdir ~/.vim/colors
 
 cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
-cp colors ~/.vim/
+cp colors/gruvbox.vim ~/.vim/colors/gruvbox.vim
 
 #source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -16,6 +18,5 @@ cp colors ~/.vim/
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 
 echo "hello worls"
