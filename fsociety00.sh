@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chsh -s /usr/bin/zsh
+
 rm ~/.vimrc
 rm ~/.zshrc
 rm -Rfv ~/.zsh
