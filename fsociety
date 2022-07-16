@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "hello worls"
+
+echo "hello "
+echo "h555555lo "
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
