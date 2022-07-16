@@ -17,17 +17,16 @@ set wildmenu
 set ruler
 set showmatch 
 set t_Co=256 
-"set list listchars=tab:→\ ,trail:
 
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
-set confirm " использовать диалоги вместо сообщений об ошибках
-set clipboard=unnamed " во избежание лишней путаницы использовать системный буфер
-set pastetoggle= "подсвечивает все слова, которые совпадают со словом под курсором.
-set cindent " ci - отступы в стиле С
+set confirm 
+set clipboard=unnamed 
+set pastetoggle= 
+set cindent 
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 set completeopt=menu
