@@ -1,14 +1,12 @@
 #!/bin/bash
 
-chsh -s /usr/bin/zsh
-
+rm -Rfv ~/.zsh
+rm -Rfv ~/.vim
 rm ~/.vimrc
 rm ~/.zshrc
-rm -Rfv ~/.zsh
 
 mkdir ~/.vim
 mkdir ~/.vim/colors
-
 cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 cp colors/gruvbox.vim ~/.vim/colors/gruvbox.vim
