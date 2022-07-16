@@ -11,12 +11,8 @@ cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 cp colors/gruvbox.vim ~/.vim/colors/gruvbox.vim
 
-#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-#source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-echo "hello worls"
+# source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
