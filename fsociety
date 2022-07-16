@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "hello worls"
 rm ~/.vimrc
 rm ~/.zshrc
-rm -Rfv ~/.zsh/zsh-autosuggestions
+rm -Rfv ~/.zsh
+
 mkdir ~/.vim
 mkdir ~/.vim/colors
 
