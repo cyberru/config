@@ -2,6 +2,5 @@
 
 echo "hello worls"
 
-echo "hello "
-echo "h555555lo "
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh:
