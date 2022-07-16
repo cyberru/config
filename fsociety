@@ -1,6 +1,20 @@
 #!/bin/bash
 
 echo "hello worls"
+rm ~/.vimrc
+rm ~/.zshrc
+rm -Rfv ~/.zsh/zsh-autosuggestions
 
+cp .vimrc ~/.vimrc
+cp .zshrc ~/.zshrc
+
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh:
+
+
+echo "hello worls"
